@@ -1,5 +1,5 @@
 const getHomePage= function(req,res){
-  res.render('index', { title: 'Express' });
+  res.render('home', { title: 'Express' });
 }
 const getSignupPage= function(req,res){
   res.render('signup',{ title: 'Express' });
@@ -7,3 +7,4 @@ const getSignupPage= function(req,res){
 
 
 module.exports={getHomePage,getSignupPage}
+
