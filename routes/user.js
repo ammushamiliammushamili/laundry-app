@@ -6,7 +6,7 @@ var router = express.Router();
 //   res.render('index', { title: 'Express' });
 // });
 
-let{getHomePage}=require("../controllers/usercontroller")
+let { getHomePage } = require("../controllers/usercontroller")
 
 
 router.get("/", getHomePage);

@@ -1,6 +1,6 @@
-const getHomePage= function(req,res){
-  res.render('index', { title: 'Express' });
+const getHomePage = function (req, res) {
+  res.render('home', { title: 'Express' });
 
 }
 
-module.exports={getHomePage}
+module.exports = { getHomePage }
