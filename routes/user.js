@@ -6,9 +6,10 @@ var router = express.Router();
 //   res.render('index', { title: 'Express' });
 // });
 
-let{getHomePage}=require("../controllers/usercontroller")
+let{getHomePage, getSignupPage}=require("../controllers/usercontroller")
 
 
 router.get("/", getHomePage);
+router.get("/signup",getSignupPage)
 
 module.exports = router;
